@@ -3,11 +3,11 @@
 //     const renderPage = () => {
 //         switch (currentPage.name) {
 //             case 'about me':
-//                 return <About />
+//                 return <AboutMe />
 //             case 'portfolio':
-//                 return <Portfolio />;
+//                 return <MyPortfolio />;
 //             case 'contact':
-//                 return <Contact />;
+//                 return <ContactMe />;
 //             case 'greeting':
 //                 return <Greeting />;
 //             default:
