@@ -9,7 +9,7 @@ function App() {
     <div className="App">
 <div>
   <Header></Header>
-  {/* <Page></Page> */}
+  <Page></Page>
   <Footer></Footer>
   </div>
     </div>
