@@ -2,33 +2,23 @@
 // function Page({ currentPage }) {
 //     const renderPage = () => {
 //         switch (currentPage.name) {
+    //         case 'greeting':
+    //             return <Greeting />;
 //             case 'about me':
 //                 return <AboutMe />
 //             case 'portfolio':
 //                 return <MyPortfolio />;
 //             case 'contact':
 //                 return <ContactMe />;
-//             case 'greeting':
-//                 return <Greeting />;
+//             case 'project1':
+//                 return <Project1 />;
+//             case 'project2':
+//                 return <Project2 />;
+//             case 'project3':
+//                 return <Project3 />;
 //             default:
 //                 return <Greeting />
 //         };
 //     };
 // };
 
-import React from 'react';
-import './style.css';
-
-function Greeting() {
-    return (
-        <>
-        <section id="intro" class="">
-            <h1>Hi there!</h1>
-            {/* <img id="avatar" class="rounded-circle" src='../../public/avatar.jpg'> */}
-            <h1>I'm Mike.</h1>
-        </section>
-        </>
-    )
-}
-
-export default Greeting;
