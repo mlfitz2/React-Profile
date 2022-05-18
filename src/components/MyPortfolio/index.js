@@ -11,15 +11,15 @@ function MyPortfolio() {
             <div class="portfolio-display d-flex flex-row justify-content-around">
                 <div class="project-card" id="pubcrawler">
                     <h4 class="p-3 m-0 rounded-top d-flex justify-content-center align-items-center">PubCrawler</h4>
-                    <img id="pubcrawler-pic" class="portfolio-pic" src="assets/pubcrawler.JPG">
+                    <img id="pubcrawler-pic" class="portfolio-pic" alt="pic" src="assets/pubcrawler.JPG"/>
                 </div>
                 <div class="project-card" id="happy-place">
                     <h4 class="p-3 m-0 rounded-top d-flex justify-content-center align-items-center">The Happy Place</h4>
-                    <img id="happy-place-pic" class="portfolio-pic" src="assets/happy-place.JPG">
+                    <img id="happy-place-pic" class="portfolio-pic" alt="pic" src="assets/happy-place.JPG"/>
                 </div>
                 <div class="project-card" id="note-taker">
                     <h4 class="p-3 m-0 rounded-top d-flex justify-content-center align-items-center">Note Taker</h4>
-                    <img id="note-taker-pic" class="portfolio-pic" src="assets/note-taker.JPG">
+                    <img id="note-taker-pic" class="portfolio-pic" alt="pic" src="assets/note-taker.JPG"/>
                 </div>
             </div>
         </section>
