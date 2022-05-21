@@ -16,6 +16,15 @@ function App() {
     },
     {
       name: 'contact'
+    },
+    {
+      name: 'project1'
+    },
+    {
+      name: 'project2'
+    },
+    {
+      name: 'project3'
     }
   ])
   const [ currentPage, setCurrentPage ] = useState(pages[0]);
