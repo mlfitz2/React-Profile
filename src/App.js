@@ -30,7 +30,7 @@ function App() {
   const [ currentPage, setCurrentPage ] = useState(pages[0]);
   return (
     <div className="App">
-      <div className="row">
+      <div className="row app-body">
         <Header 
           pages={pages}
           setCurrentPage={setCurrentPage}

@@ -4,7 +4,18 @@
     --forest-green: #137217;
 }
 
-body {
+.bg {
     background-color: var(--dark-grey);
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 100vh;
+}
+
+.content {
+    background-color: var(--forest-green);
+    border-radius: 30px;
+    width: 95%;
+    min-height: 90vh;
 }
