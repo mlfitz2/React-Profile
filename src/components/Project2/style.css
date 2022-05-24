@@ -3,3 +3,43 @@
     --dark-grey: #383838;
     --forest-green: #137217;
 }
+
+.project-h1 {
+    font-size: 3em;
+}
+
+.project-text {
+    font-size: 1.2em;
+    margin: 0% 2%;
+}
+
+.project-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-pic {
+    width: 40%;
+    border-radius: 25px;
+}
+
+.project-links-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-link {
+    background-color: var(--light-grey);
+    padding: 10%;
+    font-size: 2em;
+    font-weight: 900;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+}
