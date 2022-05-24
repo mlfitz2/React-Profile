@@ -8,9 +8,9 @@ function Greeting() {
         <>
         <section className="bg">
             <div className="content">
-                <h1>Hi there!</h1>
-                <img id="avatar" className="rounded-circle" alt="avatar" src={avatar}/>
-                <h1>I'm Mike.</h1>
+                <h1 className ="greeting-text">Hi there!</h1>
+                <img id="avatar" className="rounded-circle avatar" alt="avatar" src={avatar}/>
+                <h1 className ="greeting-text">I'm Mike.</h1>
             </div>
         </section>
         </>

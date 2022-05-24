@@ -11,11 +11,12 @@
     align-items: center;
 }
 
-h1 {
+.intro-h1 {
     margin-bottom: 2%;
+    font-size: 3em;
 }
 
-p {
+.intro-text {
     color: var(--light-grey);
     margin: 1% 5%;
     font-size: 2em;

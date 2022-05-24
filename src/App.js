@@ -27,7 +27,7 @@ function App() {
       name: 'project3'
     }
   ])
-  const [ currentPage, setCurrentPage ] = useState(pages[0]);
+  const [ currentPage, setCurrentPage ] = useState(pages[4]);
   return (
     <div className="App">
       <div className="row app-body">

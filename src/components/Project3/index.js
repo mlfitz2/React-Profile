@@ -12,8 +12,8 @@ function Project3() {
                     <div>
                         <img alt="pic-of-project" src="assets/happy-place.JPG"/>
                         <div>
-                            <a href="https://the-happy-place-app.herokuapp.com/" target="_blank">Deployed App</a>
-                            <a href="https://github.com/mlfitz2/The-Happy-Place" target="_blank">GitHub</a>
+                            <a href="https://the-happy-place-app.herokuapp.com/" target="_blank" rel="noreferrer">Deployed App</a>
+                            <a href="https://github.com/mlfitz2/The-Happy-Place" target="_blank" rel="noreferrer">GitHub</a>
                         </div>
                     </div>
                 </div>

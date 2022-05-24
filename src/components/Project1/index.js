@@ -12,8 +12,8 @@ function Project1() {
                     <div>
                         <img className="project-demo-pic" alt="project-pic" src="assets/pubcrawler.JPG"/>
                         <div>
-                            <a href="https://benfok.github.io/pub-crawler" target="_blank">Deployed App</a>
-                            <a href="https://github.com/mlfitz2/pub-crawler" target="_blank">GitHub</a>
+                            <a href="https://benfok.github.io/pub-crawler" target="_blank" rel="noreferrer">Deployed App</a>
+                            <a href="https://github.com/mlfitz2/pub-crawler" target="_blank" rel="noreferrer">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -22,4 +22,4 @@ function Project1() {
     )
 }
 
-export default Project1;
+export default Project1; 
