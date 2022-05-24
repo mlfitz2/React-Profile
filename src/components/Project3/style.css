@@ -6,11 +6,12 @@
 
 .project-h1 {
     font-size: 3em;
+    font-weight: 900;
 }
 
 .project-text {
     font-size: 1.2em;
-    margin: 0% 2%;
+    margin: 1% 2%;
 }
 
 .project-display {
