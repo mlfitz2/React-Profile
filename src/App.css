@@ -32,3 +32,22 @@ ol, ul {
   list-style: none;
 }
 
+/* @media screen and (max-width: 1250px) {
+  body {
+    flex-direction: column;
+  }
+} */
+
+@media all and (min-device-width:601px) and (orientation: landscape) {
+  .app-body {
+      flex-direction: row;
+  }
+}
+
+
+@media only screen and (max-device-width:600px) and (orientation: portrait) {
+  .app-body {
+      flex-direction: column;
+  }
+}
+

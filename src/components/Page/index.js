@@ -9,7 +9,7 @@ import Project2 from '../Project2';
 import Project3 from '../Project3';
 import PageContent from '../PageContent';
 
-function Page({ currentPage }) {
+function Page({ currentPage, pages, setCurrentPage }) {
     const renderPage = () => {
         switch (currentPage.name) {
             case 'greeting':
@@ -17,7 +17,7 @@ function Page({ currentPage }) {
             case 'about me':
                 return <AboutMe />
             case 'portfolio':
-                return <MyPortfolio />;
+                return <MyPortfolio pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage} />;
             case 'contact':
                 return <ContactMe />;
             case 'project1':
