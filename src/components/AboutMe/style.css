@@ -14,10 +14,32 @@
 .intro-h1 {
     margin-bottom: 2%;
     font-size: 3em;
+    font-weight: 900;
+    text-align: center;
 }
 
 .intro-text {
     color: var(--light-grey);
     margin: 1% 5%;
     font-size: 2em;
+}
+
+@media screen and (max-width: 750px) {
+    .intro-h1 {
+        font-size: 2em;
+    }
+    
+    .intro-text {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .intro-h1 {
+        font-size: 2em;
+    }
+    
+    .intro-text {
+        font-size: 1em;
+    }
 }
