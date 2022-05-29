@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Page/style.css';
-import './style.css';
+import '../Project1/style.css'
+// import './style.css';
 import happyPlace from './happy-place.JPG'
 
 function Project2() {
