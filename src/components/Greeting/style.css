@@ -4,12 +4,12 @@
     --forest-green: #137217;
 }
 
-.content {
+/* .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .greeting-text {
     color: var(--light-grey);
@@ -18,5 +18,13 @@
 }
 
 .avatar {
+
     margin: 2%;
+}
+
+
+@media only screen and (max-device-width:600px) and (orientation: portrait) {
+    .avatar {
+        width: 80%;
+    }
 }

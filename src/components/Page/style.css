@@ -7,7 +7,7 @@
 .bg {
     background-color: var(--dark-grey);
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     width: 85vw;
     height: 100vh;
@@ -17,5 +17,20 @@
     background-color: var(--forest-green);
     border-radius: 30px;
     width: 95%;
-    min-height: 90vh;
+    height: 95%;
 }
+
+@media only screen and (max-device-width:600px) and (orientation: portrait) {
+    .bg {
+        width: 100vw;
+        height: 85vh;
+        justify-content: center;
+    }
+    
+    .content {
+        width: 85vw;
+        min-height: 75vh;
+        max-height: 80vh;
+        margin-left: 10px;
+    }
+  }
