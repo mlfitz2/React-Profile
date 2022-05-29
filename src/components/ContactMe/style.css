@@ -30,6 +30,7 @@
     justify-content: center;
     align-items: center;
     margin: 2%;
+    text-align: center;
 }
 
 a:visited, a:link {
@@ -38,5 +39,21 @@ a:visited, a:link {
 }
 
 .contact-icon {
-    font-size: 3em;
+    font-size: 3em !important;
+}
+
+@media screen and (max-width: 750px) {
+    .contact-item {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-h1 {
+        font-size: 2em;
+    }
+    .contact-item {
+        width: 65%;
+        height: 10vh;
+    }
 }
