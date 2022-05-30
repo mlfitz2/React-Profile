@@ -1,6 +1,6 @@
 # React-Profile
 
-Deployed Application: https://dashboard.heroku.com/apps/mike-fitzpatrick
+Deployed Application: https://mike-fitzpatrick.herokuapp.com/home
 GitHub Repository: https://github.com/mlfitz2/React-Profile
 
 ## Overview
@@ -18,3 +18,4 @@ This was built using React.js, JavaScript, and CSS.
 ![Screenshot-3](./Screenshots/portfolio.JPG "Portfolio Overview")
 ![Screenshot-4](./Screenshots/project.JPG "Project: PubCrawler")
 ![Screenshot-5](./Screenshots/contact.JPG "Contact Me")
+
